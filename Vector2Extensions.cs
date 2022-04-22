@@ -38,7 +38,7 @@ namespace MyProj
 
         public static float MagSq(this Vector2 vector2)
         {
-            return MathF.Sqrt(vector2.X) + MathF.Sqrt(vector2.Y);
+            return vector2.X * vector2.X + vector2.Y * vector2.Y;
         }
     }
 }
